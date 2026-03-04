@@ -49,16 +49,7 @@ Dit script:
    - jouw Telegram user id
 2. installeert basis dependencies (`ollama`, `ffmpeg`)
 3. zet Python dependencies klaar (via `uv` of `venv` fallback)
-4. maakt `.env` direct aan en vult token/user id in (ook als later een install-stap faalt).
-
-
-Als Homebrew/Ollama problemen geeft (bijv. tag/version fout), kun je het script alsnog laten doorlopen:
-
-```bash
-SKIP_BREW=1 ./scripts/install.sh
-```
-
-Installeer daarna Ollama handmatig via de officiële macOS installer.
+4. maakt `.env` aan en vult token/user id in.
 
 ## 2) Ollama starten + modellen ophalen
 
